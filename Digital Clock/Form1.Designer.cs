@@ -29,50 +29,54 @@
         private void InitializeComponent()
         {
             lblTime = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
+            lblSecond = new Label();
+            lblDate = new Label();
+            lblDay = new Label();
             SuspendLayout();
             // 
             // lblTime
             // 
             lblTime.AutoSize = true;
+            lblTime.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime.ForeColor = Color.White;
-            lblTime.Location = new Point(148, 87);
+            lblTime.Location = new Point(70, 41);
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(44, 20);
+            lblTime.Size = new Size(353, 159);
             lblTime.TabIndex = 0;
             lblTime.Text = "22:22";
             // 
-            // label2
+            // lblSecond
             // 
-            label2.AutoSize = true;
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(375, 215);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
+            lblSecond.AutoSize = true;
+            lblSecond.Font = new Font("Segoe UI", 28.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblSecond.ForeColor = Color.White;
+            lblSecond.Location = new Point(493, 119);
+            lblSecond.Name = "lblSecond";
+            lblSecond.Size = new Size(77, 62);
+            lblSecond.TabIndex = 1;
+            lblSecond.Text = "22";
             // 
-            // label3
+            // lblDate
             // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(405, 283);
-            label3.Name = "label3";
-            label3.Size = new Size(50, 20);
-            label3.TabIndex = 2;
-            label3.Text = "label3";
+            lblDate.AutoSize = true;
+            lblDate.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDate.ForeColor = Color.White;
+            lblDate.Location = new Point(70, 302);
+            lblDate.Name = "lblDate";
+            lblDate.Size = new Size(379, 81);
+            lblDate.TabIndex = 2;
+            lblDate.Text = "June 25 2016";
             // 
-            // label4
+            // lblDay
             // 
-            label4.AutoSize = true;
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(475, 215);
-            label4.Name = "label4";
-            label4.Size = new Size(50, 20);
-            label4.TabIndex = 3;
-            label4.Text = "label4";
+            lblDay.AutoSize = true;
+            lblDay.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblDay.ForeColor = Color.White;
+            lblDay.Location = new Point(493, 302);
+            lblDay.Name = "lblDay";
+            lblDay.Size = new Size(268, 81);
+            lblDay.TabIndex = 3;
+            lblDay.Text = "Saturday";
             // 
             // Form1
             // 
@@ -80,9 +84,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(800, 450);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
+            Controls.Add(lblDay);
+            Controls.Add(lblDate);
+            Controls.Add(lblSecond);
             Controls.Add(lblTime);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
@@ -94,8 +98,8 @@
         #endregion
 
         private Label lblTime;
-        private Label label2;
-        private Label label3;
-        private Label label4;
+        private Label lblSecond;
+        private Label lblDate;
+        private Label lblDay;
     }
 }

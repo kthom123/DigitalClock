@@ -28,55 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblTime = new Label();
             lblSecond = new Label();
             lblDate = new Label();
             lblDay = new Label();
+            timer = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // lblTime
             // 
             lblTime.AutoSize = true;
+            lblTime.BorderStyle = BorderStyle.FixedSingle;
             lblTime.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime.ForeColor = Color.White;
             lblTime.Location = new Point(70, 41);
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(353, 159);
+            lblTime.Size = new Size(355, 161);
             lblTime.TabIndex = 0;
             lblTime.Text = "22:22";
             // 
             // lblSecond
             // 
             lblSecond.AutoSize = true;
+            lblSecond.BorderStyle = BorderStyle.FixedSingle;
             lblSecond.Font = new Font("Segoe UI", 28.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSecond.ForeColor = Color.White;
             lblSecond.Location = new Point(493, 119);
             lblSecond.Name = "lblSecond";
-            lblSecond.Size = new Size(77, 62);
+            lblSecond.Size = new Size(79, 64);
             lblSecond.TabIndex = 1;
             lblSecond.Text = "22";
             // 
             // lblDate
             // 
             lblDate.AutoSize = true;
+            lblDate.BorderStyle = BorderStyle.FixedSingle;
             lblDate.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDate.ForeColor = Color.White;
-            lblDate.Location = new Point(70, 302);
+            lblDate.Location = new Point(34, 288);
             lblDate.Name = "lblDate";
-            lblDate.Size = new Size(379, 81);
+            lblDate.Size = new Size(381, 83);
             lblDate.TabIndex = 2;
             lblDate.Text = "June 25 2016";
             // 
             // lblDay
             // 
             lblDay.AutoSize = true;
+            lblDay.BorderStyle = BorderStyle.FixedSingle;
             lblDay.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDay.ForeColor = Color.White;
-            lblDay.Location = new Point(493, 302);
+            lblDay.Location = new Point(484, 288);
             lblDay.Name = "lblDay";
-            lblDay.Size = new Size(268, 81);
+            lblDay.Size = new Size(270, 83);
             lblDay.TabIndex = 3;
             lblDay.Text = "Saturday";
+            // 
+            // timer
+            // 
+            timer.Interval = 1000;
+            timer.Tick += timer_Tick;
             // 
             // Form1
             // 
@@ -101,5 +112,6 @@
         private Label lblSecond;
         private Label lblDate;
         private Label lblDay;
+        private System.Windows.Forms.Timer timer;
     }
 }

@@ -9,7 +9,10 @@ namespace Digital_Clock
 
         private void timer_Tick(object sender, EventArgs e)
         {
-
+            lblTime.Text = DateTime.Now.ToString("HH:mm");
+            lblSecond.Text = DateTime.Now.ToString("ss");
+            lblDate.Text = DateTime.Now.ToString("MM dd yyyy");
+            lblDay.Text = DateTime.Now.ToString("dddd");
         }
     }
 }

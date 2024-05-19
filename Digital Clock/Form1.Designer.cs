@@ -42,7 +42,7 @@
             lblTime.BorderStyle = BorderStyle.FixedSingle;
             lblTime.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTime.ForeColor = Color.White;
-            lblTime.Location = new Point(70, 41);
+            lblTime.Location = new Point(174, 48);
             lblTime.Name = "lblTime";
             lblTime.Size = new Size(355, 161);
             lblTime.TabIndex = 0;
@@ -54,7 +54,7 @@
             lblSecond.BorderStyle = BorderStyle.FixedSingle;
             lblSecond.Font = new Font("Segoe UI", 28.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSecond.ForeColor = Color.White;
-            lblSecond.Location = new Point(493, 119);
+            lblSecond.Location = new Point(574, 126);
             lblSecond.Name = "lblSecond";
             lblSecond.Size = new Size(79, 64);
             lblSecond.TabIndex = 1;
@@ -66,7 +66,7 @@
             lblDate.BorderStyle = BorderStyle.FixedSingle;
             lblDate.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblDate.ForeColor = Color.White;
-            lblDate.Location = new Point(34, 288);
+            lblDate.Location = new Point(50, 288);
             lblDate.Name = "lblDate";
             lblDate.Size = new Size(381, 83);
             lblDate.TabIndex = 2;
@@ -102,6 +102,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -13,6 +13,12 @@ namespace Digital_Clock
             lblSecond.Text = DateTime.Now.ToString("ss");
             lblDate.Text = DateTime.Now.ToString("MM dd yyyy");
             lblDay.Text = DateTime.Now.ToString("dddd");
+            lblSecond.Location = new Point(lblTime.Location.X + lblTime.Width, lblSecond.Location.Y);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timer.Start();
         }
     }
 }

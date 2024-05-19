@@ -1,0 +1,17 @@
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\bin\Debug\net8.0-windows\Digital Clock.exe
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\bin\Debug\net8.0-windows\Digital Clock.deps.json
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\bin\Debug\net8.0-windows\Digital Clock.runtimeconfig.json
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\bin\Debug\net8.0-windows\Digital Clock.dll
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\bin\Debug\net8.0-windows\Digital Clock.pdb
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital_Clock.Form1.resources
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.csproj.GenerateResource.cache
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.AssemblyInfoInputs.cache
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.AssemblyInfo.cs
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.sourcelink.json
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.dll
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\refint\Digital Clock.dll
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.pdb
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\Digital Clock.genruntimeconfig.cache
+C:\Users\Kyle\Github\DigitalClock\Digital Clock\obj\Debug\net8.0-windows\ref\Digital Clock.dll

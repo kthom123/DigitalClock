@@ -16,9 +16,6 @@ namespace Digital_Clock
             lblSecond.Location = new Point(lblTime.Location.X + lblTime.Width, lblSecond.Location.Y);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            timer.Start();
-        }
+        private void Form1_Load(object sender, EventArgs e) => timer.Start();
     }
 }
